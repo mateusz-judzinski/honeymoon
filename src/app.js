@@ -2,7 +2,7 @@ import { initGoldTier } from './prize/gold/gold.js';
 import { initSilverTier } from './prize/silver/silver.js';
 import { initBronzeTier } from './prize/bronze/bronze.js';
 import { loadTemplate } from './utils.js';
-import { initLock } from './lock.js';
+import { initLock } from './prize/lock.js';
 
 document.addEventListener("DOMContentLoaded", async () => {
     const appContainer = document.getElementById("app");
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const CURRENT_DATE = new Date();
 
     if (CURRENT_DATE < TARGET_DATE) {
-        appContainer.innerHTML = await loadTemplate('./src/lock.html');
+        appContainer.innerHTML = await loadTemplate('./src/prize/lock.html');
         initLock();
         return;
     }
