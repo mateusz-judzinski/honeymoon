@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const CURRENT_DATE = new Date();
 
     if (CURRENT_DATE < TARGET_DATE) {
-        appContainer.innerHTML = await loadTemplate('./lock.html');
+        appContainer.innerHTML = await loadTemplate('./src/lock.html');
         return;
     }
 
@@ -30,6 +30,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             await initBronzeTier(appContainer);
             break;
         default:
-            appContainer.innerHTML = await loadTemplate('./error.html');
+            appContainer.innerHTML = await loadTemplate('./src/error.html');
     }
 });

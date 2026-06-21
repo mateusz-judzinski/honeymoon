@@ -1,7 +1,7 @@
 import { triggerConfetti, loadTemplate } from '../../utils.js';
 
 export async function initGoldTier(container) {
-    container.innerHTML = await loadTemplate('./prize/gold/gold.html');
+    container.innerHTML = await loadTemplate('./src/prize/gold/gold.html');
 
     const canvas = document.getElementById("scratch-canvas");
     const ctx = canvas.getContext("2d");
