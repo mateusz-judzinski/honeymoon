@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+export function initLock() {
     let secondsLeft = 30;
 
     const timerDisplay = document.getElementById('countdown-timer');
@@ -67,4 +67,4 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
     }
-});
+}

@@ -2,6 +2,7 @@ import { initGoldTier } from './prize/gold/gold.js';
 import { initSilverTier } from './prize/silver/silver.js';
 import { initBronzeTier } from './prize/bronze/bronze.js';
 import { loadTemplate } from './utils.js';
+import { initLock } from './lock.js';
 
 document.addEventListener("DOMContentLoaded", async () => {
     const appContainer = document.getElementById("app");
@@ -12,6 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     if (CURRENT_DATE < TARGET_DATE) {
         appContainer.innerHTML = await loadTemplate('./src/lock.html');
+        initLock();
         return;
     }
 
