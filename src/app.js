@@ -6,7 +6,7 @@ import { loadTemplate } from './utils.js';
 document.addEventListener("DOMContentLoaded", async () => {
     const appContainer = document.getElementById("app");
 
-    const TARGET_DATE = new Date(2027, 2, 1);
+    const TARGET_DATE = new Date(2026, 2, 1);
     const CURRENT_DATE = new Date();
 
     if (CURRENT_DATE < TARGET_DATE) {
