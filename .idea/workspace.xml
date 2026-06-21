@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b935a25-6211-408c-aa57-bab258986a68" name="Changes" comment="initial game logic">
-      <change afterPath="$PROJECT_DIR$/project/game/brozne/bronze.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/game/brozne/bronze.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/game/gold/gold.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/game/gold/gold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/game/silver/silver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/game/silver/silver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/game/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/lock.html" afterDir="false" />
+    <list default="true" id="6b935a25-6211-408c-aa57-bab258986a68" name="Changes" comment="structure entire prize-project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/game/games.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/prize/brozne/bronze.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/prize/bronze/bronze.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/prize/brozne/bronze.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/prize/bronze/bronze.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +43,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mateu\OneDrive\Desktop\ImportantShit\Job\projects\honey-moon\project\game" />
       <recent name="C:\Users\mateu\OneDrive\Desktop\ImportantShit\Job\projects\honey-moon\project" />
+      <recent name="C:\Users\mateu\OneDrive\Desktop\ImportantShit\Job\projects\honey-moon\project\game" />
       <recent name="C:\Users\mateu\OneDrive\Desktop\ImportantShit\Job\projects\honey-moon" />
       <recent name="C:\Users\mateu\OneDrive\Desktop\ImportantShit\Job\projects\honey-moon\app" />
     </key>
@@ -82,12 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1782037601293</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="structure entire prize-project">
+      <option name="closed" value="true" />
+      <created>1782039764942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1782039764942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit-push" />
     <MESSAGE value="initial game logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial game logic" />
+    <MESSAGE value="structure entire prize-project" />
+    <option name="LAST_COMMIT_MESSAGE" value="structure entire prize-project" />
   </component>
 </project>

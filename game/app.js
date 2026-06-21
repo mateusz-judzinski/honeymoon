@@ -1,7 +1,7 @@
-import { initGoldTier } from './game/gold/gold.js';
-import { initSilverTier } from './game/silver/silver.js';
-import { initBronzeTier } from './game/bronze/bronze.js';
-import { loadTemplate } from './game/utils.js';
+import { initGoldTier } from './game/prize/gold/gold.js';
+import { initSilverTier } from './game/prize/silver/silver.js';
+import { initBronzeTier } from './game/prize/bronze/bronze.js';
+import { loadTemplate } from './utils.js';
 
 document.addEventListener("DOMContentLoaded", async () => {
     const appContainer = document.getElementById("app");
