@@ -3,6 +3,10 @@ import { triggerConfetti, loadTemplate } from '../../utils.js';
 export async function initGoldTier(container) {
     container.innerHTML = await loadTemplate('./src/prize/gold/gold.html');
 
+    const prizeText = document.getElementById("gold-prize-text");
+    const secretPrize = "V2Fyc3p0YXR5IHR3b3J6ZW5pYSBwZXJmdW0=";
+    prizeText.innerText = atob(secretPrize);
+
     const canvas = document.getElementById("scratch-canvas");
     const ctx = canvas.getContext("2d");
 
