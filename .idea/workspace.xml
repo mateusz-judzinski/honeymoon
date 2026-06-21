@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b935a25-6211-408c-aa57-bab258986a68" name="Changes" comment="comment remove" />
+    <list default="true" id="6b935a25-6211-408c-aa57-bab258986a68" name="Changes" comment="restructure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prize/gold/gold.js" beforeDir="false" afterPath="$PROJECT_DIR$/prize/gold/gold.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,9 +42,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mateu\OneDrive\Desktop\ImportantShit\Job\projects\honey-moon" />
       <recent name="C:\Users\mateu\OneDrive\Desktop\ImportantShit\Job\projects\honey-moon\project" />
       <recent name="C:\Users\mateu\OneDrive\Desktop\ImportantShit\Job\projects\honey-moon\project\game" />
-      <recent name="C:\Users\mateu\OneDrive\Desktop\ImportantShit\Job\projects\honey-moon" />
       <recent name="C:\Users\mateu\OneDrive\Desktop\ImportantShit\Job\projects\honey-moon\app" />
     </key>
   </component>
@@ -93,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782040285357</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="restructure">
+      <option name="closed" value="true" />
+      <created>1782040604408</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1782040604408</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -102,6 +114,7 @@
     <MESSAGE value="structure entire prize-project" />
     <MESSAGE value="import fix" />
     <MESSAGE value="comment remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment remove" />
+    <MESSAGE value="restructure" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructure" />
   </component>
 </project>

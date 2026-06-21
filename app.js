@@ -1,6 +1,6 @@
-import { initGoldTier } from './game/prize/gold/gold.js';
-import { initSilverTier } from './game/prize/silver/silver.js';
-import { initBronzeTier } from './game/prize/bronze/bronze.js';
+import { initGoldTier } from './prize/gold/gold.js';
+import { initSilverTier } from './prize/silver/silver.js';
+import { initBronzeTier } from './prize/bronze/bronze.js';
 import { loadTemplate } from './utils.js';
 
 document.addEventListener("DOMContentLoaded", async () => {
