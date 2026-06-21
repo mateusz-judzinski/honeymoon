@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     const TARGET_DATE = new Date(2027, 2, 1);
     const CURRENT_DATE = new Date();
 
-    // Ścieżka względem index.html
     if (CURRENT_DATE < TARGET_DATE) {
         appContainer.innerHTML = await loadTemplate('./lock.html');
         return;
@@ -31,7 +30,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             await initBronzeTier(appContainer);
             break;
         default:
-            // Ładowanie wydzielonego pliku błędu
             appContainer.innerHTML = await loadTemplate('./error.html');
     }
 });

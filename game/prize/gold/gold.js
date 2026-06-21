@@ -1,8 +1,6 @@
-// Cofamy się o 3 poziomy: gold -> prize -> game -> główny katalog
 import { triggerConfetti, loadTemplate } from '../../../utils.js';
 
 export async function initGoldTier(container) {
-    // Dodajemy folder 'prize' do ścieżki
     container.innerHTML = await loadTemplate('./game/prize/gold/gold.html');
 
     const canvas = document.getElementById("scratch-canvas");
