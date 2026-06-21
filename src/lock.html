@@ -1,7 +1,7 @@
 <div id="lock-screen" class="fixed inset-0 w-full h-full overflow-y-auto p-8 text-center flex flex-col items-center justify-center bg-slate-950 text-slate-200 transition-colors duration-500">
 
     <audio id="alarm-sound" src="https://assets.mixkit.co/active_storage/sfx/995/995-preview.mp3" preload="auto" loop></audio>
-    <audio id="explosion-sound" src="https://assets.mixkit.co/active_storage/sfx/217/217-preview.mp3" preload="auto"></audio>
+    <audio id="explosion-sound" src="./src/audio/explosion.mp3" preload="auto"></audio>
 
     <div id="lock-icon" class="text-8xl mb-6 animate-pulse">⏰</div>
 
@@ -9,12 +9,12 @@
         PROTOKÓŁ F.R.A.J.E.R<br>URUCHOMIONY!
     </h1>
 
-    <p class="text-xs text-slate-500 -mt-3 mb-6">(Falstart Rujnujący Atrakcje Jednocześnie Eliminujący Radość)</p>
+    <p id="lock-subtitle" class="text-xs text-slate-500 -mt-3 mb-6">(Falstart Rujnujący Atrakcje Jednocześnie Eliminujący Radość)</p>
 
     <div id="lock-message" class="text-slate-300 mb-8 text-xl max-w-md space-y-4">
         <p>
             Wykryto przedwczesną próbę dostępu! <br>
-            System Travel-Safe™ aktywował procedurę
+            System Entertainment-Safe™ aktywował procedurę
             <span class="font-bold text-red-500 border-b border-red-500 border-dashed">Samozniszczenia Niespodzianek</span>
         </p>
         <p class="font-mono text-5xl text-red-600 bg-red-950/50 p-4 rounded-lg shadow-inner" id="countdown-timer">
@@ -26,7 +26,7 @@
         </p>
     </div>
 
-    <div class="border border-slate-700 bg-slate-900 px-6 py-3 rounded-full text-sm text-slate-500 shadow-xl">
+    <div id="lock-status" class="border border-slate-700 bg-slate-900 px-6 py-3 rounded-full text-sm text-slate-500 shadow-xl">
         Status systemu: <span class="text-amber-500 font-medium">Oczekiwanie na start podróży</span>
     </div>
 </div>

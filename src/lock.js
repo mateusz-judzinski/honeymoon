@@ -9,6 +9,9 @@ export function initLock() {
     const alarmSound = document.getElementById('alarm-sound');
     const explosionSound = document.getElementById('explosion-sound');
 
+    const lockSubtitle = document.getElementById('lock-subtitle');
+    const lockStatus = document.getElementById('lock-status');
+
     if (!timerDisplay) return;
 
     const playPromise = alarmSound.play();
@@ -53,17 +56,20 @@ export function initLock() {
         lockTitle.classList.remove('text-amber-400');
         lockTitle.classList.add('text-white');
 
+        if (lockSubtitle) lockSubtitle.classList.add('hidden');
+        if (lockStatus) lockStatus.classList.add('hidden');
+
         lockMessage.innerHTML = `
             <div class="text-left space-y-4 text-red-200 bg-red-900/30 p-6 rounded-xl border border-red-700">
-                <p class="font-bold text-2xl text-center">🤯 Jedna nagroda właśnie wyparowała.</p>
-                <p>Ostrzegaliśmy. Przez Wasze wścibstwo system Travel-Safe™ zdetonował pierwszą niespodziankę w kopercie.</p>
+                <p class="font-bold text-2xl text-center">🤯 Jedna nagroda właśnie wybuchła 💣</p>
+                <p>Ostrzegaliśmy. Przez Wasze wścibstwo system Entertainment-Safe™ zdetonował pierwszą niespodziankę w kopercie.</p>
                 <p class="font-semibold">Co teraz?</p>
                 <ul class="list-disc list-inside text-sm space-y-1 text-slate-300">
-                    <li>Wróć tu dopiero, gdy wykonasz wszystkie zdjęcia podczas podróży.</li>
+                    <li>Wróć tu dopiero, gdy wykonasz wszystkie zadania wymagane do odblokowania nagrody.</li>
                     <li>Każde kolejne wejście przed czasem grozi reakcją łańcuchową i wybuchem reszty nagród.</li>
                     <li>Ryzykujecie powrót z podróży z pustymi rękami (i fochem systemu).</li>
                 </ul>
-                <p class="text-center pt-4 italic text-xs text-slate-500">Widzimy się w marcu 2027. Bez odbioru.</p>
+                <p class="text-center pt-4 italic text-xs text-slate-500">Widzimy się w marcu 2027. Bez odbioru.<br>(nagroda nie wybuchła, ale przestań oszukiwać)</p>
             </div>
         `;
     }
