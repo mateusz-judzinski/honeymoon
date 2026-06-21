@@ -6,11 +6,12 @@ import { loadTemplate } from './utils.js';
 document.addEventListener("DOMContentLoaded", async () => {
     const appContainer = document.getElementById("app");
 
-    const TARGET_DATE = new Date(2026, 2, 1);
+    // TODO: adjust target date when finished
+    const TARGET_DATE = new Date(2027, 2, 1);
     const CURRENT_DATE = new Date();
 
     if (CURRENT_DATE < TARGET_DATE) {
-        appContainer.innerHTML = await loadTemplate('./src/lock.html');
+        appContainer.innerHTML = await loadTemplate('./lock.html');
         return;
     }
 
