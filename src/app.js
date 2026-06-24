@@ -7,8 +7,7 @@ import { initLock } from './prize/lock.js';
 document.addEventListener("DOMContentLoaded", async () => {
     const appContainer = document.getElementById("app");
 
-    // TODO: adjust target date once finished
-    const TARGET_DATE = new Date(2026, 2, 1);
+    const TARGET_DATE = new Date(2027, 2, 1);
     const CURRENT_DATE = new Date();
 
     if (CURRENT_DATE < TARGET_DATE) {
@@ -17,12 +16,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         return;
     }
 
-    // TODO: uncomment this part once finished
-    // remove this statement at march next year
-//    if (true) {
-//        appContainer.innerHTML = await loadTemplate('./src/prize/error.html');
-//        return
-//    }
+    if (true) {
+        appContainer.innerHTML = await loadTemplate('./src/prize/error.html');
+        return
+    }
 
     const urlParams = new URLSearchParams(window.location.search);
     const tier = urlParams.get("tier");
